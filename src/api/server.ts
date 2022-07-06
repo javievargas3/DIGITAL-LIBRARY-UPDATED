@@ -1,9 +1,8 @@
-let token = 'fc4370135421bcd240e46c171113d9c3ecea53ebbaba9392'
+let token = '9537c1dc79eac909de995f24eab73bc6775f73415c855f6e'
 
 export const server_calls = {
     get: async () => {
         const response = await fetch(`http://127.0.0.1:5000/api/books`,{
-            
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

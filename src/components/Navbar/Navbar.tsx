@@ -75,7 +75,7 @@ export const Navbar = () => {
                 <ul className={`${classes.ul} ${classes.row} ${classes.spaceBetween} ${classes.psides}`}>
                     <li>
                         <Button>
-                        <Link to='/Book_Inventory' className={`${classes.navbarItem} ${classes.psides}`}>Book Library</Link>
+                        <Link to='/book_inventory' className={`${classes.navbarItem} ${classes.psides}`}>Book Library</Link>
                         </Button>
                     </li>
                     <li>
